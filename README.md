@@ -1,4 +1,4 @@
-# Contacts Snapshot starter project
+# SQL Migrations Snapshot
 
 ## Dev Setup
 
