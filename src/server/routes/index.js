@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const contacts = require('./contacts')
-const users = require('./users');
+// const users = require('./users');
 const DbContacts = require('../../db/contacts');
 
 router.get('/', (request, response) => {
@@ -10,6 +10,6 @@ router.get('/', (request, response) => {
 })
 
 router.use('/contacts', contacts); // /contacts/search
-router.use('/users', users); // /users/search
+// router.use('/users', users); // /users/search
 
 module.exports = router;
